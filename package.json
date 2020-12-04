@@ -1,13 +1,13 @@
 {
-  "name": "lol",
-  "description": "lol",
+  "name": "a",
+  "description": "a",
   "version": "0.0.0",
-  "main": "bot.js",
+  "main": "selfbot.js",
   "scripts": {
     "start": "node selfbot.js"
   },
   "dependencies": {
-    "discord.js": "11.1.0",
+    "discord.js.old": "12.5.1",
     "request": "2.81.0"
   }
-}
+} 
