@@ -7,7 +7,7 @@ client.on("message", message => {
 	const args = message.content.slice(prefix.length).trim().split(' ');
 	const command = args.shift().toLowerCase();
 	if (command === 'fake') {
-	var link = args[0]
+	var link = args[1]
 	if(message.channel.id === "784520411324481557"){
 		message.channel.send("Reported message: "+ link +"")
 	}
