@@ -2,15 +2,17 @@ const discord = require('discord.js.old');
 const client = new discord.Client();
 let condo = "Currently no condos."
 const prefix = '!'
-const args = message.content.slice(prefix.length).trim().split(' ');
-const command = args.shift().toLowerCase();
 
-if (command === 'fake') {
+client.on("message", message => {
+	if (command === 'fake') {
+	const args = message.content.slice(prefix.length).trim().split(' ');
+	const command = args.shift().toLowerCase();
 	var link = args[0]
 	if(message.channel.id === "784520411324481557"){
 		message.channel.send("Reported message: "+ link +"")
 	}
 }
+})
 
 client.on('ready', async () => {
     console.log(`ready`)
