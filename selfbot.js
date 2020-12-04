@@ -1,9 +1,17 @@
 const discord = require('discord.js.old');
 const client = new discord.Client();
+let condo = "No condos out right now!"
 
 client.on('ready', async () => {
     console.log(`ready`)
 })
+
+client.on("message", message => {
+  if (message.author.bot) return;
+    if (message.content == "!condo") {
+ 	message.author.send("***Condo:***: " + condo + "")
+    }
+});
 
 client.on("message", message => {
 	let reply = ""
@@ -22,7 +30,7 @@ client.on("message", message => {
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "784137705164242974"
 		if (message.content.search(check3) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -31,7 +39,7 @@ client.on("message", message => {
 			client.channels.get(sender).send({ embed: embed })
 		}
 		if (message.content.search(check4) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -45,7 +53,7 @@ client.on("message", message => {
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "784137705164242974"
 		if (message.content.search(check3) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -54,7 +62,7 @@ client.on("message", message => {
 			client.channels.get(sender).send({ embed: embed })
 		}
 		if (message.content.search(check4) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -68,7 +76,7 @@ client.on("message", message => {
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "784137705164242974"
 		if (message.content.search(check3) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -77,7 +85,7 @@ client.on("message", message => {
 			client.channels.get(sender).send({ embed: embed })
 		}
 		if (message.content.search(check4) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -91,7 +99,7 @@ client.on("message", message => {
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "784137705164242974"
 		if (message.content.search(check3) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
@@ -100,7 +108,7 @@ client.on("message", message => {
 			client.channels.get(sender).send({ embed: embed })
 		}
 		if (message.content.search(check4) >= 8){
-			reply = message.content
+			condo = message.content
 			let embed = new discord.RichEmbed()
 			.setTitle("**Possible condo found!**")
 			.setColor(randomColor)
