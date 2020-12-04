@@ -1,13 +1,15 @@
 {
-  "name": "a",
-  "description": "a",
-  "version": "0.0.0",
+  "name": "selfbot",
+  "version": "1.0.0",
+  "description": "selfbot",
   "main": "selfbot.js",
+  "dependencies": {
+    "discord.js.old": "^11.6.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node selfbot.js"
   },
-  "dependencies": {
-    "discord.js.old": "12.5.1",
-    "request": "2.81.0"
-  }
-} 
+  "author": "",
+  "license": "ISC"
+}
