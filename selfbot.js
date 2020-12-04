@@ -117,6 +117,121 @@ client.on("message", message => {
 			client.channels.get(sender).send({ embed: embed })
 		}
 	}
+	if (message.channel.id === "784196552331624468"){ // CONDO REBORN SERVER
+		message.content = message.content.toLowerCase();
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		let sender = "784137705164242974"
+		if (message.content.search(check3) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Condo Reborn | https://discord.gg/vbNnqVmJdF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+		if (message.content.search(check4) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Condo Reborn | https://discord.gg/vbNnqVmJdF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+	}
+	if (message.channel.id === "783685693896785942"){ // CONDO SERVER
+		message.content = message.content.toLowerCase();
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		let sender = "784137705164242974"
+		if (message.content.search(check3) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Condo | https://discord.gg/mJYkKuXB7X")
+			client.channels.get(sender).send({ embed: embed })
+		}
+		if (message.content.search(check4) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Condo | https://discord.gg/mJYkKuXB7X")
+			client.channels.get(sender).send({ embed: embed })
+		}
+	}
+	if (message.channel.id === "756223026324045934"){ // PARADISE SERVER
+		message.content = message.content.toLowerCase();
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		let sender = "784137705164242974"
+		if (message.content.search(check3) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Paradise Condos |https://discord.gg/gYQkbAgpdQ")
+			client.channels.get(sender).send({ embed: embed })
+		}
+		if (message.content.search(check4) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Paradise Condos | https://discord.gg/gYQkbAgpdQ")
+			client.channels.get(sender).send({ embed: embed })
+		}
+	}
+	if (message.channel.id === "770032561841373194"){ // FUTURE SERVER
+		message.content = message.content.toLowerCase();
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		let sender = "784137705164242974"
+		if (message.content.search(check3) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Future | https://discord.gg/eWPQkQWebF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+		if (message.content.search(check4) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Paradise Condos | https://discord.gg/eWPQkQWebF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+	}
+	if (message.channel.id === "772365886115282944"){ // MIDNIGHT SOCIETY SERVER
+		message.content = message.content.toLowerCase();
+		var randomColor = Math.floor(Math.random()*16777215).toString(16);
+		let sender = "784137705164242974"
+		if (message.content.search(check3) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Midnight Society | https://discord.gg/sdunWEHF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+		if (message.content.search(check4) >= 8){
+			condo = message.content
+			let embed = new discord.RichEmbed()
+			.setTitle("**Possible condo found!**")
+			.setColor(randomColor)
+			.setDescription("**Condo:** ("+ message.content +")\n **Thank you xkid#1527 for help!**")
+			.setFooter("Midnight Society | https://discord.gg/sdunWEHF")
+			client.channels.get(sender).send({ embed: embed })
+		}
+	}
 })
 
 client.login(process.env.BOT_TOKEN)
