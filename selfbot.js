@@ -43,6 +43,7 @@
 					if (message.content.search(checkURL) >= 8){
 						let one1 = "787073474219737088"
 						let one2 = "782053586175655938"
+						let sender = "786820507805679696"
 						client.channels.get(one1).send(""+ args[0] +"")
 						client.channels.get(one2).send(""+ args[0] +"")
 						client.channels.get(sender).send("Successfully sent condo link to 2 CONDO SERVERS")
@@ -50,7 +51,7 @@
 					cooldown.add(message.author.id);
 					setTimeout(() => {
 						cooldown.delete(message.author.id)
-					}, 10000)
+					}, 60000)
 				}
 			}
 		}
