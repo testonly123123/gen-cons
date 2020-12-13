@@ -34,7 +34,7 @@
 		if(message.channel.id === "786820507805679696"){
 			if(command === "post"){
 				if(cooldown.has(message.author.id)){
-					message.reply("Cooldown! 10 seconds.")
+					message.reply("Cooldown! 1 minute")
 				} else {
 					if(!args.length){
 						return message.channel.send("Please provide a condo link.")
