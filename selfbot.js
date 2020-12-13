@@ -27,7 +27,7 @@
 				let checkURL = "roblox.com/games/60"
 				if (message.content.search(checkURL) >= 8){
 					let one9 = "786820507805679696"
-					client.channels.get(one9).send("" args[0] "")
+					client.channels.get(one9).send(""+ args[0] +"")
 				}
 			}
 		}
