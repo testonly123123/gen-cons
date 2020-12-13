@@ -40,7 +40,7 @@
 						return message.channel.send("Please provide a condo link.")
 					}
 					let checkURL = "roblox.com/games/60"
-					if (message.content.search(check3) >= 8){
+					if (message.content.search(checkURL) >= 8){
 						let one1 = "787073474219737088"
 						let one2 = "782053586175655938"
 						client.channels.get(one1).send(""+ args[0] +"")
