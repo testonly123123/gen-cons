@@ -46,7 +46,7 @@
 						let sender = "786820507805679696"
 						client.channels.get(one1).send(""+ args[0] +"")
 						client.channels.get(one2).send(""+ args[0] +"")
-						client.channels.get(sender).send("Successfully sent condo link to 2 CONDO SERVERS")
+						client.channels.get(sender).send("Successfully sent condo link to 2 CONDO SERVERS ***More condo servers will be added in the future updates.***")
 					}	
 					cooldown.add(message.author.id);
 					setTimeout(() => {
