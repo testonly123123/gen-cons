@@ -26,26 +26,8 @@
 				}
 				let checkURL = "roblox.com/games/60"
 				if (message.content.search(checkURL) >= 8){
-					let one = "781880694031777802"
-					let one1 = "783685693896785942"
-					let one2 = "784196552331624468"
-					let one3 = "777206202916405278"
-					let one4 = "772365886115282944"
-					let one5 = "759244053517697044"
-					let one6 = "783924733522608179"
-					let one7 = "756223026324045934"
-					let one8 = "770032561841373194"
 					let one9 = "786820507805679696"
-					client.channels.get(one).send(""+ args[0] +"")
-					client.channels.get(one1).send(""+ args[0] +"")
-					client.channels.get(one2).send(""+ args[0] +"")
-					client.channels.get(one3).send(""+ args[0] +"")
-					client.channels.get(one4).send(""+ args[0] +"")
-					client.channels.get(one5).send(""+ args[0] +"")
-					client.channels.get(one6).send(""+ args[0] +"")
-					client.channels.get(one7).send(""+ args[0] +"")
-					client.channels.get(one8).send(""+ args[0] +"")
-					client.channels.get(one9).send("Successfully sent condo link.")
+					client.channels.get(one9).send("" args[0] "")
 				}
 			}
 		}
