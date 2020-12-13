@@ -36,9 +36,6 @@
 				if(cooldown.has(message.author.id)){
 					message.reply("Cooldown! 1 minute")
 				} else {
-					if(!args.length){
-						return message.channel.send("Please provide a condo link.")
-					}
 					let checkURL = "roblox.com/games/60"
 					if (message.content.search(checkURL) >= 8){
 						let one1 = "787073474219737088"
