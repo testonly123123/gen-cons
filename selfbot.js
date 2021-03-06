@@ -35,12 +35,12 @@ client.on("message", message => {
 			.setDescription("**Condo:** [Link]("+ message.content +")")
 			client.channels.get(sender).send({ embed: embed })
 			
-			let embedd = new discord.RichEmbed()
-			.setTitle("**Possible condo found!**")
-			.setColor(randomColor)
-			.setDescription("**Condo:** [Link]("+ message.content +")")
-			.setFooter('Supplied by SYSTEMATIC | https://discord.gg/ZH7xYsuh')
-			client.channels.get(senderr).send({ embed: embedd })
+			//let embedd = new discord.RichEmbed()
+			//.setTitle("**Possible condo found!**")
+			//.setColor(randomColor)
+			//.setDescription("**Condo:** [Link]("+ message.content +")")
+			//.setFooter('Supplied by SYSTEMATIC | https://discord.gg/ZH7xYsuh')
+			//client.channels.get(senderr).send({ embed: embedd })
 		}
 	}
 })
