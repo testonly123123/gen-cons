@@ -22,7 +22,7 @@ client.on("message", message => {
 		}
 	}
 
-	if(message.channel.id === "792776632481218571" || message.channel.id === "800623137447608371" || message.channel.id === "772365886115282944" || message.channel.id === "778482442578296833" || message.channel.id === "792301294005649448" || message.channel.id === "801701275069579324" || message.channel.id === "792899269023105084" || message.channel.id === "807768141811023952" || message.channel.id === "771975903684329513" || message.channel.id === "748510864814112799" || message.channel.id === "777967074269986866" || message.channel.id === "795488305805393923" || message.channel.id === "806202972013985844" || message.channel.id === "804163586896822303"){
+	if(message.channel.id === "812038769506516993" || message.channel.id === "821094121141043210" || message.channel.id === "792301294005649448" || message.channel.id === "801701275069579324" || message.channel.id === "807768141811023952" || message.channel.id === "801701275069579324" || message.channel.id === "771975903684329513" || message.channel.id === "777967074269986866" || message.channel.id === "771975903684329513" || message.channel.id === "748510864814112799" || message.channel.id === "777967074269986866" || message.channel.id === "795488305805393923" || message.channel.id === "804163586896822303"){
 		message.content = message.content.toLowerCase();
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "809420315230339112"
