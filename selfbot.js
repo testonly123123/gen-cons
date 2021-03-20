@@ -9,7 +9,7 @@ client.on('ready', async () => {
 })
 
 client.on("message", message => {
-	let check = "roblox.com/games/64"
+	let check = "roblox.com/games/65"
 	if(message.author.bot) return
 	if(message.content === ",condo"){
 		if(cooldown.has(message.author.id)){
