@@ -26,7 +26,6 @@ client.on("message", message => {
 		message.content = message.content.toLowerCase();
 		var randomColor = Math.floor(Math.random()*16777215).toString(16);
 		let sender = "809420315230339112"
-		let senderr = "815377183706316870"
 		condo = message.content
 		if(message.content.search(check) >= 8){
 			let embed = new discord.RichEmbed()
@@ -34,13 +33,6 @@ client.on("message", message => {
 			.setColor(randomColor)
 			.setDescription("**Condo:** [Link]("+ message.content +")")
 			client.channels.get(sender).send({ embed: embed })
-			
-			let embedd = new discord.RichEmbed()
-			.setTitle("**Possible condo found!**")
-			.setColor(randomColor)
-			.setDescription("**Condo:** [Link]("+ message.content +")")
-			.setFooter('Supplied by SYSTEMATIC | https://discord.gg/ZH7xYsuh')
-			client.channels.get(senderr).send({ embed: embedd })
 		}
 	}
 })
